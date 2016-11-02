@@ -18,7 +18,7 @@ body {
 	margin-left: auto;
 	margin-right:auto;
 	background-image:url('images/main_background.png');
-	background-image:opacity:0.4;
+	background-image: {opacity:0.4;};
 	background-repeat:no-repeat;
 	background-position:center;
 }
@@ -39,7 +39,7 @@ body {
 	font-size: 50px; 
 	font-style: normal; 
 	font-weight: 400; 
-	line-height: 50px;`
+	line-height: 50px;
 }
 
 #webdesign-link a {
@@ -56,7 +56,7 @@ body {
 	margin-left: auto;
 	margin-right:auto;
 	background-image:url('images/container_background.png');
-	background-image:opacity:0.4;
+	background-image: {opacity:0.4;};
 	background-repeat:no-repeat;
 	background-position:center;
 }
