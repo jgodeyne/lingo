@@ -5,7 +5,7 @@ body {
 	font-family: Verdana, Verdana, Geneva, sans-serif;
 	font-size: 1em;
 	line-height: 150%;
-	color: #26537C;
+	color: #30AA8A;
 	background-color: #DCDCDC;
 }
 
@@ -17,7 +17,7 @@ body {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right:auto;
-	background-image:url('images/main_background.png');
+	background-image:url('images/background.jpg');
 	background-image: {opacity:0.4;};
 	background-repeat:no-repeat;
 	background-position:center;
@@ -26,8 +26,7 @@ body {
 /* Language selection */
 #language_selection {
 	width: 410px;
-	padding-top: 500px;
-	padding-left: 320px;
+	padding-left: 290px;
 }
 
 #webdesign-link h1 {
@@ -55,10 +54,29 @@ body {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right:auto;
-	background-image:url('images/container_background.png');
-	background-image: {opacity:0.4;};
-	background-repeat:no-repeat;
-	background-position:center;
+	background-image:url('images/background.jpg');
+	background-image: {opacity:0.5;};
+	background-repeat: no-repeat;
+	background-position:center
+}
+
+/* Title style */
+#title {
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#title h1 {
+	font-size: 4em;
+	text-align: center;
+	color: #30AA8A;
+}
+
+#title h2 {
+	font-size: 2em;
+	text-align: center;
+	color: #30AA8A;
 }
 
 /* Header style */
@@ -82,7 +100,7 @@ body {
 
 /* Main style */
 #main {
-	height: 518px;
+	height: 528px;
 	padding-left: 50px;
 	padding-right: 50px;
 	color: #DCDCDC;
